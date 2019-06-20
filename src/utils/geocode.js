@@ -5,9 +5,9 @@ const geocode = (address, callback) => {
 
 	request({ url, json : true }, (error, response) => {
 		if (error){
-			callback('Tidak bisa menyambung ke server', undefined);
+			callback('Unable connect to the server', undefined);
 		} else if(response.body.features.length == 0){
-			callback('Lokasi tidak ditemukan, cobalah cari lokasi lain', undefined);
+			callback('Location unknown,please try another', undefined);
 		} else {
 			callback(undefined,{
 				latitude: response.body.features[0].center[0],
