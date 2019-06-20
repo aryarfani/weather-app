@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: grey;
+}
+
+body {
+	height: 100%;
+}
+
+.header {
+	background-color: #43464a;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+}
+
+.header a {
+	color: #c8ccd1;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+.not-found {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.not-found h1 {
+	color: grey;
+	font-size: 100px;
+}
+
+.footer {
+	background-color: #43464a;
+	width: 100%;
+	height: 35px;
+	bottom: 0;
+	position: absolute; 
+}
+
+.footer p {
+	color: #c8ccd1;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
