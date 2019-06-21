@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
 	res.render('help', {
 		title: 'Help',
-		message: 'If you have any contact please contact us'
+		message: 'If you have any question or message please contact us'
 	})
 })
 // adding route
